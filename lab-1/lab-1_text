@@ -1,0 +1,9 @@
+Joshua Arrevillaga
+Lab 01
+EC413
+09/09/2024
+
+3.1: 
+The reason uchar1 and schar1 show us different values is because both have the different typing with being unsigned and signed.
+When its signed it means that it can access negative numbers so it would't reach 255 like uchar1 because there isnt enough space
+to go that far so it made sense the answer is 127 for schar1
