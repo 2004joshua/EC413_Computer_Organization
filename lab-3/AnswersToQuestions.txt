@@ -1,0 +1,11 @@
+Q:What are the times of your adders in gate delays? 
+
+A: The ripple carry adder has 128 units of delay (at maximum) and the carry select adder has 64 units of delay (at maximum)
+
+Q:Are they what you expect? 
+
+A: They are what you expect.
+
+Q:Why or why not?
+
+A: The carry select adder should have half the delay of the full riplle adder, because while the 32 lower bits were calculated through 32 full adders, the higher 32 bits were calculated at the same time and then picked out by a mux with the lower 32 carry out as a select.
